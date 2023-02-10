@@ -26,8 +26,7 @@ for line in links:
     html_template = html_template + new_link + '\n'
 
 #Finish the HTML template by adding the final HTML tags
-html_template = html_template + "</DL><p>"
-html_template = html_template + "</DL><p>"
+html_template = html_template + "</DL><p></DL><p>"
 
 #Write the gathered information to the bookmarks.html file before closing both files and exiting
 bookmarks.write(html_template)
